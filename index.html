@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html> 
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sam Chin | Portfolio</title>
+        <link href="styles.css" rel="stylesheet" />
+        
+    </head>
+    <body> 
+        <header> 
+            <div class = "menubar">
+                <a href = "#home"><span>Home</span></a>
+                <a href = "#about"><span>About</span></a>
+                <a href = "#proj"><span>Projects</span></a>
+                <a href = "#contact"><span>Contact</span></a>
+            </div>
+        </header>
+        <main> 
+            <section id = "home" class = "tab"> 
+                <h1> Hi I am <br>Sam Chin</h1>
+                <img 
+                src = "images/pfp.jpg" 
+                id = "pfp"
+                />
+                <h3> Home</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien 
+                    vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus 
+                    leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum
+                    egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper 
+                    vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+            </section>
+
+            <section id = "about" class = "tab"> 
+                <img 
+                src = "images/pfp.jpg" 
+                id = "stub-2"
+                />
+                <h3> About</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien 
+                    vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus 
+                    leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum
+                    egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper 
+                    vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
+            </section>
+
+            <section id = "proj" class = "tab"> 
+                <h3> Projects </h3>
+                <div class = "proj-row" id = "row-1"> 
+                    <div class = "projects">
+                        <a href = "">Project 1</a>
+                        <a href = "">Project 2</a>
+                        <a href = "">Project 3</a>
+                    </div>
+                </div>
+
+                <div class = "proj-row" id = "row-2"> 
+                    <div class = "projects">
+                        <a href = "">Project 4</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id = "contact" class = "tab"> 
+                
+                <h3>Contact Me</h3>
+                <div class = "ctc"> 
+                    <input type = "text" placeholder = "First Name" id = "c1"></input>
+                    <input type = "text" placeholder = "Last Name" id = "c2"></input>
+                    <input type = "email" placeholder = "Email" id = "c3"></input>
+                    <input type = "tel" placeholder = "Phone Number" id = "c4"></input>
+                    <textarea id = "c5" placeholder = "Enter any comments"></textarea>     
+                </div>
+                <input type = "submit" value = "Submit Report" id = "c6"></input>  
+                
+                
+            </section>
+        </main>
+        <script src = "script.js" defer></script>
+    </body>    
+</html>
