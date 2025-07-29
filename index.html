@@ -4,14 +4,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sam Chin | Portfolio</title>
-        <link href="styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css"  />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+         integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
         
     </head>
     <body> 
         <header> 
             <div class = "menubar">
+                <a target= "_blank" href = "https://github.com/thomasamff"><span><i class="fa-brands fa-github"></i></span></a>
                 <a href = "#home"><span>Home</span></a>
-                <a href = "#about"><span>About</span></a>
+                <a href = "#skills"><span>Skills</span></a>
                 <a href = "#proj"><span>Projects</span></a>
                 <a href = "#contact"><span>Contact</span></a>
             </div>
@@ -20,7 +25,7 @@
             <section id = "home" class = "tab"> 
                 <h1> Hi I am <br>Sam Chin</h1>
                 <img 
-                src = "images/pfp.jpg" 
+                src = "public/pfp.jpg" 
                 id = "pfp"
                 />
                 <h3> Home</h3>
@@ -31,12 +36,12 @@
                     vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
             </section>
 
-            <section id = "about" class = "tab"> 
+            <section id = "skills" class = "tab"> 
                 <img 
-                src = "images/pfp.jpg" 
+                src = "public/pfp.jpg" 
                 id = "stub-2"
                 />
-                <h3> About</h3>
+                <h3> Skills</h3>
                 <p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien 
                     vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus 
                     leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum
@@ -76,6 +81,7 @@
                 
             </section>
         </main>
+
         <script src = "script.js" defer></script>
     </body>    
 </html>

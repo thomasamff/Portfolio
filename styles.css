@@ -119,12 +119,12 @@ section {
 }
 
 /* ABOUT SECTION */
-#about {
+#skills {
     top: 100%;
     height:100vh;
 }
 
-#about > h3 {
+#skills > h3 {
     position:absolute;
     font-size:40px;
     top:250px;
@@ -139,7 +139,7 @@ section {
     left: 65%;
 }
 
-#about > p {
+#skills > p {
     position:absolute;
     font-size: 24px;
     width:35%;
